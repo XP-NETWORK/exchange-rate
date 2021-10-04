@@ -3,6 +3,4 @@ import { ExchangeRateDto } from "./ExchangeRateDto";
 export declare type ExchangeRateDtoMapper = {
     toDomain(model: ExchangeRateDto): ExchangeRateMap;
 };
-export declare function exchangeRateDtoMapper(): {
-    toDomain: (model: ExchangeRateDto) => Map<string, number>;
-};
+export declare function exchangeRateDtoMapper(): ExchangeRateDtoMapper;
