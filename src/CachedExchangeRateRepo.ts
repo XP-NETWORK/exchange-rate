@@ -5,6 +5,11 @@ import {
 import ExchangeRateMap from './model/domain/ExchangeRateMap';
 import { SupportedCurrency } from './model/domain/SupportedCurrency';
 
+
+type CacheExpiry = {
+    getCacheExpiry(): number;
+}
+
 /**
  * Exchange Rate Repo which uses cache from a BatchExchangeRateRepo source
  *
@@ -16,20 +21,29 @@ import { SupportedCurrency } from './model/domain/SupportedCurrency';
 export function cachedExchangeRateRepo(
     baseBatch: BatchExchangeRateRepo,
     cacheExpiry = 3.6e6
-): ExchangeRateRepo & BatchExchangeRateRepo {
+): ExchangeRateRepo & BatchExchangeRateRepo & CacheExpiry {
     let _cache: ExchangeRateMap | undefined = undefined;
-    let _cache_date = Date.now();
+    let _cache_ms = Date.now();
+
+    function getCacheExpiry(): number {
+        const diff = Date.now() - _cache_ms;
+        if (diff > cacheExpiry) {
+            return 0;
+        } else {
+            return cacheExpiry - diff;
+        }
+    }
 
     async function getCache(): Promise<ExchangeRateMap> {
         const fetchCache = async () => {
             _cache = await baseBatch.getBatchedRate(
                 Object.values(SupportedCurrency)
             );
-            _cache_date = Date.now();
+            _cache_ms = Date.now();
         };
         if (_cache === undefined) {
             await fetchCache();
-        } else if (_cache_date - Date.now() > cacheExpiry) {
+        } else if (getCacheExpiry() == 0) {
             const old_cache = new Map(_cache);
             await fetchCache().catch((e) => {
                 console.warn(
@@ -59,6 +73,7 @@ export function cachedExchangeRateRepo(
         },
         async getBatchedRate(): Promise<ExchangeRateMap> {
             return new Map(await getCache());
-        }
+        },
+        getCacheExpiry
     };
 }
