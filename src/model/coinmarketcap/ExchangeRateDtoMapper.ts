@@ -12,7 +12,7 @@ export function exchangeRateDtoMapper(
     return {
         toDomain: (model: ExchangeRateDto) => {
             return new Map(
-                model.data.map(({ id, quote: { USD: usd } }) => [
+                Object.values(model.data).map(({ id, quote: { USD: usd } }) => [
                     coinMarketIdMapper.toDomain(id),
                     usd.price,
                 ])

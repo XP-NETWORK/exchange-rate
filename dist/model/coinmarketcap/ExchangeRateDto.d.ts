@@ -38,6 +38,8 @@ export interface Status {
     credit_count: number;
 }
 export interface ExchangeRateDto {
-    data: CurrencyData[];
+    data: {
+        [k: number]: CurrencyData;
+    };
     status: Status;
 }
