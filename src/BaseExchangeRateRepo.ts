@@ -6,6 +6,8 @@ export type BatchExchangeRateRepo = {
      * Get exchange rate of multiple currencies to USD at once
      *
      * @param curencies list of currencies
+     * 
+     * @return mapping of supported currencies to their usd values
      */
     getBatchedRate(curencies: SupportedCurrency[]): Promise<ExchangeRateMap>;
 };

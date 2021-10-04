@@ -7,4 +7,4 @@ import { BatchExchangeRateRepo, ExchangeRateRepo } from './BaseExchangeRateRepo'
  * @param baseBatch Base Repo for getting batch exchange rates
  * @param cacheExpiry time to wait before fetching new exchange rates. (Default: 1 hour)
  */
-export declare function cachedExchangeRateRepo(baseBatch: BatchExchangeRateRepo, cacheExpiry?: number): ExchangeRateRepo;
+export declare function cachedExchangeRateRepo(baseBatch: BatchExchangeRateRepo, cacheExpiry?: number): ExchangeRateRepo & BatchExchangeRateRepo;

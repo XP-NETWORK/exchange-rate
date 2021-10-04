@@ -16,7 +16,7 @@ import { SupportedCurrency } from './model/domain/SupportedCurrency';
 export function cachedExchangeRateRepo(
     baseBatch: BatchExchangeRateRepo,
     cacheExpiry = 3.6e6
-): ExchangeRateRepo {
+): ExchangeRateRepo & BatchExchangeRateRepo {
     let _cache: ExchangeRateMap | undefined = undefined;
     let _cache_date = Date.now();
 
@@ -57,5 +57,8 @@ export function cachedExchangeRateRepo(
 
             return r1 / r2;
         },
+        async getBatchedRate(): Promise<ExchangeRateMap> {
+            return new Map(await getCache());
+        }
     };
 }
