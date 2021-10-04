@@ -1,10 +1,9 @@
 import axios, { AxiosResponse } from 'axios';
+import { BaseBatchExchangeRateService } from '..';
 import { CMCId } from './CMCId';
 import { ExchangeRateDto } from './ExchangeRateDto';
 
-export type CMCBatchExchangeRateService = {
-    getBatchedRate(curencies: CMCId[]): Promise<ExchangeRateDto>;
-};
+export type CMCBatchExchangeRateService = BaseBatchExchangeRateService<CMCId, ExchangeRateDto>;
 
 export function cmcBatchExchangeRateService(
     apiUri: string,
