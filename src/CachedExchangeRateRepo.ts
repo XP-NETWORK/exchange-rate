@@ -5,10 +5,9 @@ import {
 import ExchangeRateMap from './model/domain/ExchangeRateMap';
 import { SupportedCurrency } from './model/domain/SupportedCurrency';
 
-
 type CacheExpiry = {
     getCacheExpiry(): number;
-}
+};
 
 /**
  * Exchange Rate Repo which uses cache from a BatchExchangeRateRepo source
@@ -74,6 +73,6 @@ export function cachedExchangeRateRepo(
         async getBatchedRate(): Promise<ExchangeRateMap> {
             return new Map(await getCache());
         },
-        getCacheExpiry
+        getCacheExpiry,
     };
 }
