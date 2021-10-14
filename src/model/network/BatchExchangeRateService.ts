@@ -3,12 +3,12 @@ import { BaseBatchExchangeRateService } from '..';
 import { SupportedCurrency } from '../domain';
 import { ExchangeRateDto } from './ExchangeRateDto';
 
-export type NetworkBatchExchangeRateService = BaseBatchExchangeRateService<
+export type BatchExchangeRateService = BaseBatchExchangeRateService<
     SupportedCurrency,
     ExchangeRateDto
 >;
 
-export function networkBatchExchangeRateService(baseURL: string) {
+export function batchExchangeRateService(baseURL: string) {
     const client = axios.create({
         baseURL,
         headers: {

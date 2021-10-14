@@ -1,12 +1,10 @@
 import { BatchExchangeRateRepo } from './BaseExchangeRateRepo';
-import { CMCBatchExchangeRateService } from './model/coinmarketcap/BatchExchangeRateService';
-import { CMCIdMapper } from './model/coinmarketcap/CMCIdMapper';
-import { ExchangeRateDtoMapper } from './model/coinmarketcap/ExchangeRateDtoMapper';
+import { CMCModel } from './model';
 
 export function cmcBatchExchangeRepo(
-    service: CMCBatchExchangeRateService,
-    idMapper: CMCIdMapper,
-    respMapper: ExchangeRateDtoMapper
+    service: CMCModel.BatchExchangeRateService,
+    idMapper: CMCModel.IdMapper,
+    respMapper: CMCModel.ExchangeRateDtoMapper
 ): BatchExchangeRateRepo {
     return {
         getBatchedRate: (currencies) =>

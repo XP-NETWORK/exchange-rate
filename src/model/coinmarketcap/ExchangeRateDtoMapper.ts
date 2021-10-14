@@ -1,5 +1,5 @@
 import ExchangeRateMap from '../domain/ExchangeRateMap';
-import { CMCIdMapper } from './CMCIdMapper';
+import { IdMapper } from './IdMapper';
 import { ExchangeRateDto } from './ExchangeRateDto';
 
 export type ExchangeRateDtoMapper = {
@@ -7,7 +7,7 @@ export type ExchangeRateDtoMapper = {
 };
 
 export function exchangeRateDtoMapper(
-    coinMarketIdMapper: CMCIdMapper
+    coinMarketIdMapper: IdMapper
 ): ExchangeRateDtoMapper {
     return {
         toDomain: (model: ExchangeRateDto) => {

@@ -3,15 +3,15 @@ import { BaseBatchExchangeRateService } from '..';
 import { CMCId } from './CMCId';
 import { ExchangeRateDto } from './ExchangeRateDto';
 
-export type CMCBatchExchangeRateService = BaseBatchExchangeRateService<
+export type BatchExchangeRateService = BaseBatchExchangeRateService<
     CMCId,
     ExchangeRateDto
 >;
 
-export function cmcBatchExchangeRateService(
+export function batchExchangeRateService(
     apiUri: string,
     apiKey: string
-): CMCBatchExchangeRateService {
+): BatchExchangeRateService {
     const client = axios.create({
         baseURL: apiUri,
         headers: {

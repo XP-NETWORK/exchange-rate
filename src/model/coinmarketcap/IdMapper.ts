@@ -1,7 +1,7 @@
 import { SupportedCurrency } from '../domain/SupportedCurrency';
 import { CMCId } from './CMCId';
 
-export type CMCIdMapper = {
+export type IdMapper = {
     toDomain(id: CMCId): SupportedCurrency;
     fromDomain(domain: SupportedCurrency): CMCId;
     toDomainList(models: CMCId[]): SupportedCurrency[];
@@ -25,7 +25,7 @@ const ens: [CMCId, SupportedCurrency][] = [
 const enMap = new Map(ens);
 const enMapRev = new Map(ens.map(([k, v]) => [v, k]));
 
-export function cmcIdMapper(): CMCIdMapper {
+export function idMapper(): IdMapper {
     function toDomain(id: CMCId): SupportedCurrency {
         return enMap.get(id)!;
     }
