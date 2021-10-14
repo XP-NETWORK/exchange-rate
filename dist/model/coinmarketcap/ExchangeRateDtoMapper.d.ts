@@ -1,7 +1,7 @@
 import ExchangeRateMap from '../domain/ExchangeRateMap';
-import { CMCIdMapper } from './CMCIdMapper';
+import { IdMapper } from './IdMapper';
 import { ExchangeRateDto } from './ExchangeRateDto';
 export declare type ExchangeRateDtoMapper = {
     toDomain(model: ExchangeRateDto): ExchangeRateMap;
 };
-export declare function exchangeRateDtoMapper(coinMarketIdMapper: CMCIdMapper): ExchangeRateDtoMapper;
+export declare function exchangeRateDtoMapper(coinMarketIdMapper: IdMapper): ExchangeRateDtoMapper;

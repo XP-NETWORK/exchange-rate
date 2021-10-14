@@ -1,5 +1,5 @@
 export * from './BatchExchangeRateService';
 export * from './CMCId';
-export * from './CMCIdMapper';
+export * from './IdMapper';
 export * from './ExchangeRateDto';
 export * from './ExchangeRateDtoMapper';
