@@ -6,4 +6,4 @@ export declare type IdMapper = {
     toDomainList(models: CMCId[]): SupportedCurrency[];
     fromDomainList(domains: SupportedCurrency[]): CMCId[];
 };
-export declare function cmcIdMapper(): IdMapper;
+export declare function idMapper(): IdMapper;
