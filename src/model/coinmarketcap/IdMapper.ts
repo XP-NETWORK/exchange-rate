@@ -20,6 +20,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.AVAX, SupportedCurrency.AVAX],
     [CMCId.EGLD, SupportedCurrency.EGLD],
     [CMCId.XPNET, SupportedCurrency.XPNET],
+    [CMCId.STAKE, SupportedCurrency.STAKE],
 ];
 
 const enMap = new Map(ens);

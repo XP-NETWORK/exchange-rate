@@ -10,4 +10,6 @@ export enum CMCId {
     ONE = 3945,
     TRX = 1958,
     CELO = 5567,
+    ONT = 2566,
+    STAKE = 5601
 }
