@@ -20,6 +20,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.AVAX, SupportedCurrency.AVAX],
     [CMCId.EGLD, SupportedCurrency.EGLD],
     [CMCId.XPNET, SupportedCurrency.XPNET],
+    [CMCId.ONT, SupportedCurrency.ONT],
     [CMCId.STAKE, SupportedCurrency.STAKE],
 ];
 
