@@ -11,5 +11,6 @@ export declare enum SupportedCurrency {
     TRX = "TRX",
     CELO = "CELO",
     ONT = "ONT",
-    STAKE = "STAKE"
+    STAKE = "STAKE",
+    ALGO = "ALGO"
 }
