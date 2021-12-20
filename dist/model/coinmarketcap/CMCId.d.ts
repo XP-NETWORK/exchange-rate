@@ -12,5 +12,6 @@ export declare enum CMCId {
     CELO = 5567,
     ONT = 2566,
     STAKE = 5601,
-    ALGO = 4030
+    ALGO = 4030,
+    FUSE = 5634
 }
