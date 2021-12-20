@@ -22,7 +22,8 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.XPNET, SupportedCurrency.XPNET],
     [CMCId.ONT, SupportedCurrency.ONT],
     [CMCId.STAKE, SupportedCurrency.STAKE],
-    [CMCId.ALGO, SupportedCurrency.ALGO]
+    [CMCId.ALGO, SupportedCurrency.ALGO],
+    [CMCId.FUSE, SupportedCurrency.FUSE]
 ];
 
 const enMap = new Map(ens);
