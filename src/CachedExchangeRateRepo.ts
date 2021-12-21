@@ -23,7 +23,9 @@ export function cachedExchangeRateRepo(
 ): ExchangeRateRepo & BatchExchangeRateRepo & CacheExpiry {
     let _cache: ExchangeRateMap | undefined = undefined;
     let _cache_ms = Date.now();
-
+    const supported = Object.values(SupportedCurrency).filter(
+        (v) => v !== SupportedCurrency.OPL
+    );
     function getCacheExpiry(): number {
         const diff = Date.now() - _cache_ms;
         if (diff > cacheExpiry) {
@@ -35,9 +37,8 @@ export function cachedExchangeRateRepo(
 
     async function getCache(): Promise<ExchangeRateMap> {
         const fetchCache = async () => {
-            _cache = await baseBatch.getBatchedRate(
-                Object.values(SupportedCurrency)
-            );
+            _cache = await baseBatch.getBatchedRate(Object.values(supported));
+            _cache.set(SupportedCurrency.OPL, 0.01);
             _cache_ms = Date.now();
         };
         if (_cache === undefined) {
