@@ -14,5 +14,6 @@ export enum CMCId {
     STAKE = 5601,
     ALGO = 4030,
     FUSE = 5634,
+    XTZ = 2011,
     //TODO: Add OPL Here
 }

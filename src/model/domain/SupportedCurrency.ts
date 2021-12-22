@@ -15,4 +15,5 @@ export enum SupportedCurrency {
     ALGO = 'ALGO',
     FUSE = 'FUSE',
     OPL = 'OPL',
+    XTZ = 'XTZ',
 }
