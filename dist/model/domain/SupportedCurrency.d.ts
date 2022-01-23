@@ -16,5 +16,6 @@ export declare enum SupportedCurrency {
     FUSE = "FUSE",
     OPL = "OPL",
     XTZ = "XTZ",
-    VLX = "VLX"
+    VLX = "VLX",
+    IOTX = "IOTX"
 }

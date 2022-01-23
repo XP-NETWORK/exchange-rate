@@ -15,5 +15,6 @@ export declare enum CMCId {
     ALGO = 4030,
     FUSE = 5634,
     XTZ = 2011,
-    VLX = 4747
+    VLX = 4747,
+    IOTX = 2777
 }
