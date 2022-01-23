@@ -17,4 +17,5 @@ export enum SupportedCurrency {
     OPL = 'OPL',
     XTZ = 'XTZ',
     VLX = 'VLX',
+    IOTX = 'IOTX',
 }
