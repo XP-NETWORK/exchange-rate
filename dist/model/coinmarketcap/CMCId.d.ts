@@ -16,5 +16,6 @@ export declare enum CMCId {
     FUSE = 5634,
     XTZ = 2011,
     VLX = 4747,
-    IOTX = 2777
+    IOTX = 2777,
+    AURORA = 14803
 }
