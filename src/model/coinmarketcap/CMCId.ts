@@ -17,6 +17,6 @@ export enum CMCId {
     XTZ = 2011,
     VLX = 4747,
     IOTX = 2777,
-    AURORA = 14803,
+    AURORA = 1027,
     //TODO: Add OPL Here
 }
