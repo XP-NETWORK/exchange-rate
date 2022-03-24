@@ -19,4 +19,5 @@ export enum SupportedCurrency {
     VLX = 'VLX',
     IOTX = 'IOTX',
     AURORA = 'ETH',
+    VET = 'VET',
 }

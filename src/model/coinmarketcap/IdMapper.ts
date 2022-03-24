@@ -28,6 +28,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.VLX, SupportedCurrency.VLX],
     [CMCId.IOTX, SupportedCurrency.IOTX],
     [CMCId.AURORA, SupportedCurrency.AURORA],
+    [CMCId.VET, SupportedCurrency.VET],
 ];
 
 const enMap = new Map(ens);
