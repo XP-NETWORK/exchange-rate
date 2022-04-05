@@ -19,6 +19,7 @@ export enum CMCId {
     IOTX = 2777,
     AURORA = 1027,
     VET = 3077,
-    CKB = 4948 // Godwoken
+    CKB = 4948, // Godwoken,
+    GT = 4269
     //TODO: Add OPL Here
 }

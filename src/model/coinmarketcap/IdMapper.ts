@@ -30,6 +30,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.AURORA, SupportedCurrency.AURORA],
     [CMCId.VET, SupportedCurrency.VET],
     [CMCId.CKB, SupportedCurrency.CKB],
+    [CMCId.GT, SupportedCurrency.GT]
 ];
 
 const enMap = new Map(ens);
