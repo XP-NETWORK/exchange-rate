@@ -20,5 +20,6 @@ export declare enum SupportedCurrency {
     IOTX = "IOTX",
     AURORA = "ETH",
     VET = "VET",
-    CKB = "CKB"
+    CKB = "CKB",
+    GT = "GT"
 }
