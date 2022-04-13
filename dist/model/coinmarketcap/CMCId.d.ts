@@ -11,7 +11,7 @@ export declare enum CMCId {
     TRX = 1958,
     CELO = 5567,
     ONT = 2566,
-    GNO = 1659,
+    STAKE = 5601,
     ALGO = 4030,
     FUSE = 5634,
     XTZ = 2011,
