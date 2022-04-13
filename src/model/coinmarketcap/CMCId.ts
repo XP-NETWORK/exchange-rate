@@ -11,7 +11,7 @@ export enum CMCId {
     TRX = 1958,
     CELO = 5567,
     ONT = 2566,
-    STAKE = 5601,
+    XDAI = 8635,
     ALGO = 4030,
     FUSE = 5634,
     XTZ = 2011,
@@ -20,6 +20,6 @@ export enum CMCId {
     AURORA = 1027,
     VET = 3077,
     CKB = 4948, // Godwoken,
-    GT = 4269
+    GT = 4269,
     //TODO: Add OPL Here
 }
