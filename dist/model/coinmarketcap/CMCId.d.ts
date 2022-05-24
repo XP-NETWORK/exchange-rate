@@ -20,5 +20,6 @@ export declare enum CMCId {
     AURORA = 1027,
     VET = 3077,
     CKB = 4948,
-    GT = 4269
+    GT = 4269,
+    SCRT = 5604
 }
