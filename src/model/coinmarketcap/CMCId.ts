@@ -22,5 +22,5 @@ export enum CMCId {
     CKB = 4948, // Godwoken,
     GT = 4269,
     SCRT = 5604,
-    //TODO: Add OPL Here
+    SOL = 5426
 }
