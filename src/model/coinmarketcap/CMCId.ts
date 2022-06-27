@@ -23,5 +23,6 @@ export enum CMCId {
     GT = 4269,
     SCRT = 5604,
     SOL = 5426,
-    TON = 11419
+    TON = 11419,
+    ICP = 8916
 }
