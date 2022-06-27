@@ -24,5 +24,6 @@ export declare enum SupportedCurrency {
     GT = "GT",
     SCRT = "SCRT",
     SOL = "SOL",
-    TON = "TON"
+    TON = "TON",
+    ICP = "ICP"
 }
