@@ -25,5 +25,6 @@ export enum SupportedCurrency {
     SCRT = 'SCRT',
     SOL = 'SOL',
     TON = 'TON',
-    ICP = 'ICP'
+    ICP = 'ICP',
+    HBAR = 'HBAR',
 }
