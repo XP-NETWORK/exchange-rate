@@ -25,5 +25,6 @@ export declare enum CMCId {
     SOL = 5426,
     TON = 11419,
     ICP = 8916,
-    HBAR = 4642
+    HBAR = 4642,
+    sFUEL = 11735
 }
