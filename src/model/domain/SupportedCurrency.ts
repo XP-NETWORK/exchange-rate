@@ -27,4 +27,5 @@ export enum SupportedCurrency {
     TON = 'TON',
     ICP = 'ICP',
     HBAR = 'HBAR',
+    sFUEL = "sFUEL"
 }
