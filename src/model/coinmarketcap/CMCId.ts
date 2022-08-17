@@ -26,5 +26,6 @@ export enum CMCId {
     TON = 11419,
     ICP = 8916,
     HBAR = 4642,
-    sFUEL = 11735
+    sFUEL = 11735,
+    NEAR = 6535
 }

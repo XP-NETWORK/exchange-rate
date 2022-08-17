@@ -36,7 +36,8 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.TON, SupportedCurrency.TON],
     [CMCId.ICP, SupportedCurrency.ICP],
     [CMCId.HBAR, SupportedCurrency.HBAR],
-    [CMCId.sFUEL, SupportedCurrency.sFUEL]
+    [CMCId.sFUEL, SupportedCurrency.sFUEL],
+    [CMCId.NEAR, SupportedCurrency.NEAR]
 ];
 
 const enMap = new Map(ens);
