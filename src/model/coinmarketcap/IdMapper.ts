@@ -36,7 +36,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.TON, SupportedCurrency.TON],
     [CMCId.ICP, SupportedCurrency.ICP],
     [CMCId.HBAR, SupportedCurrency.HBAR],
-    [CMCId.sFUEL, SupportedCurrency.sFUEL],
+    [CMCId.SKL, SupportedCurrency.SKL],
     [CMCId.NEAR, SupportedCurrency.NEAR],
     [CMCId.GLMR, SupportedCurrency.GLMR],
     [CMCId.ABEY, SupportedCurrency.ABEY],
