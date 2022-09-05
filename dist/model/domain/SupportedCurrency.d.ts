@@ -27,7 +27,7 @@ export declare enum SupportedCurrency {
     TON = "TON",
     ICP = "ICP",
     HBAR = "HBAR",
-    sFUEL = "sFUEL",
+    SKL = "SKL",
     NEAR = "NEAR",
     GLMR = "GLMR",
     ABEY = "ABEY"
