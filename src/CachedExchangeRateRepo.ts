@@ -24,7 +24,7 @@ export function cachedExchangeRateRepo(
     let _cache: ExchangeRateMap | undefined = undefined;
     let _cache_ms = Date.now();
     const supported = Object.values(SupportedCurrency).filter(
-        (v) => v !== SupportedCurrency.OPL
+        (v) => v !== SupportedCurrency.OPL && v !== SupportedCurrency.APTOS
     );
     function getCacheExpiry(): number {
         const diff = Date.now() - _cache_ms;
