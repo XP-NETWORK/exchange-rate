@@ -39,6 +39,7 @@ export function cachedExchangeRateRepo(
         const fetchCache = async () => {
             _cache = await baseBatch.getBatchedRate(Object.values(supported));
             _cache.set(SupportedCurrency.OPL, 0.01);
+            _cache.set(SupportedCurrency.APTOS, 1);
             _cache_ms = Date.now();
         };
         if (_cache === undefined) {
