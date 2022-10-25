@@ -26,7 +26,7 @@ export declare enum CMCId {
     TON = 11419,
     ICP = 8916,
     HBAR = 4642,
-    SKL = 5691,
+    sFUEL = 8145,
     NEAR = 6535,
     GLMR = 6836,
     ABEY = 16690
