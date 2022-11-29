@@ -31,5 +31,6 @@ export declare enum SupportedCurrency {
     NEAR = "NEAR",
     GLMR = "GLMR",
     ABEY = "ABEY",
-    APTOS = "APTOS"
+    APTOS = "APTOS",
+    CMP = "CMP"
 }
