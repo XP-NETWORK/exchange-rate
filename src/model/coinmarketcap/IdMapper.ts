@@ -40,6 +40,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.NEAR, SupportedCurrency.NEAR],
     [CMCId.GLMR, SupportedCurrency.GLMR],
     [CMCId.ABEY, SupportedCurrency.ABEY],
+    [CMCId.CMP, SupportedCurrency.CMP]
 ];
 
 const enMap = new Map(ens);

@@ -32,4 +32,5 @@ export enum SupportedCurrency {
     GLMR = 'GLMR',
     ABEY = 'ABEY',
     APTOS = 'APTOS',
+    CMP = 'CMP',
 }
