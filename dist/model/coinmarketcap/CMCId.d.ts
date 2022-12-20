@@ -30,5 +30,6 @@ export declare enum CMCId {
     NEAR = 6535,
     GLMR = 6836,
     ABEY = 16690,
-    CMP = 20056
+    CMP = 20056,
+    OKT = 8267
 }
