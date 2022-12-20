@@ -33,4 +33,5 @@ export enum SupportedCurrency {
     ABEY = 'ABEY',
     APTOS = 'APTOS',
     CMP = 'CMP',
+    OKT = 'OKT'
 }
