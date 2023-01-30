@@ -42,6 +42,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.ABEY, SupportedCurrency.ABEY],
     [CMCId.CMP, SupportedCurrency.CMP],
     [CMCId.OKT, SupportedCurrency.OKT],
+    [CMCId.aETH, SupportedCurrency.aETH],
     [CMCId.BRISE, SupportedCurrency.BRISE]
 ];
 
