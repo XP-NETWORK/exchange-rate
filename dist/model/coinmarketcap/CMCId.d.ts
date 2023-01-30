@@ -32,5 +32,6 @@ export declare enum CMCId {
     ABEY = 16690,
     CMP = 20056,
     OKT = 8267,
+    aETH = 1027,
     BRISE = 11079
 }
