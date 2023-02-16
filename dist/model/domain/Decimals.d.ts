@@ -30,7 +30,7 @@ export declare const DecimalsByCurrency: {
     readonly NEAR: 1e+24;
     readonly GLMR: 1000000000000000000;
     readonly ABEY: 1000000000000000000;
-    readonly APTOS: 1000000;
+    readonly APTOS: 100000000;
     readonly CMP: 1000000000000000000;
     readonly OKT: 1000000000000000000;
 };
@@ -66,7 +66,7 @@ export declare const DecimalsByNonce: {
     readonly 31: 1e+24;
     readonly 32: 1000000000000000000;
     readonly 33: 1000000000000000000;
-    readonly 34: 1000000;
+    readonly 34: 100000000;
     readonly 35: 1000000000000000000;
     readonly 36: 1000000000000000000;
 };
