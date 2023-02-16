@@ -30,7 +30,7 @@ export const DecimalsByCurrency = {
     NEAR: 1e24,
     GLMR: 1e18,
     ABEY: 1e18,
-    APTOS: 1e6,
+    APTOS: 1e8,
     CMP: 1e18, // Caduceus
     OKT: 1e18, // OKC
 } as const
@@ -67,7 +67,7 @@ export const DecimalsByNonce = {
     0x1f: 1e24,
     0x20: 1e18,
     0x21: 1e18,
-    0x22: 1e6,
+    0x22: 1e8,
     0x23: 1e18, // Caduceus
     0x24: 1e18, // OKC
 } as const 
