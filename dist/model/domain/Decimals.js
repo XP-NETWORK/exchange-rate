@@ -28,7 +28,7 @@ exports.DecimalsByCurrency = {
     SOL: 1e9,
     TON: 1e9,
     ICP: 1e8,
-    HBAR: 1e6,
+    HBAR: 1e8,
     SKL: 1e18,
     NEAR: 1e24,
     GLMR: 1e18,

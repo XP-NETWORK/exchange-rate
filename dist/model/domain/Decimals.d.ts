@@ -25,7 +25,7 @@ export declare const DecimalsByCurrency: {
     readonly SOL: 1000000000;
     readonly TON: 1000000000;
     readonly ICP: 100000000;
-    readonly HBAR: 1000000;
+    readonly HBAR: 100000000;
     readonly SKL: 1000000000000000000;
     readonly NEAR: 1e+24;
     readonly GLMR: 1000000000000000000;
