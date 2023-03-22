@@ -62,7 +62,7 @@ export const DecimalsByNonce = {
     0x1a: 1e9,
     0x1b: 1e9,
     0x1c: 1e8,
-    0x1d: 1e6,
+    0x1d: 1e8,
     0x1e: 1e18,
     0x1f: 1e24,
     0x20: 1e18,
