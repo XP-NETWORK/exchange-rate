@@ -61,7 +61,7 @@ export declare const DecimalsByNonce: {
     readonly 26: 1000000000;
     readonly 27: 1000000000;
     readonly 28: 100000000;
-    readonly 29: 1000000;
+    readonly 29: 100000000;
     readonly 30: 1000000000000000000;
     readonly 31: 1e+24;
     readonly 32: 1000000000000000000;
