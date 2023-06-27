@@ -33,5 +33,6 @@ export enum CMCId {
     CMP = 20056, // Caduceus
     OKT = 8267, // OKC
     aETH = 1027,
-    BRISE = 11079
+    BRISE = 11079,
+    CSPR = 5899,
 }
