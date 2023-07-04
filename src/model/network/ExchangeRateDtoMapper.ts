@@ -8,14 +8,19 @@ export type ExchangeRateDtoMapper = {
 
 type RespK = keyof typeof SupportedCurrency;
 
+const rev = Object.fromEntries(
+    Object.entries(SupportedCurrency).map(([a, b]) => {
+        return [b, a] as const;
+    })
+);
+
 export function exchangeRateDtoMapper(): ExchangeRateDtoMapper {
     return {
         toDomain: (model: ExchangeRateDto) =>
             new Map(
-                Object.entries(model).map(([ent, v]) => [
-                    SupportedCurrency[ent as RespK],
-                    v,
-                ])
+                Object.entries(model).map(([ent, v]) => {
+                    return [SupportedCurrency[rev[ent] as RespK], v];
+                })
             ),
     };
 }
