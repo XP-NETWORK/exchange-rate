@@ -33,6 +33,7 @@ export declare const DecimalsByCurrency: {
     readonly APTOS: 100000000;
     readonly CMP: 1000000000000000000;
     readonly OKT: 1000000000000000000;
+    readonly CSPR: 1000000000;
 };
 export declare const DecimalsByNonce: {
     readonly 2: 1000000000000000000;
@@ -69,4 +70,5 @@ export declare const DecimalsByNonce: {
     readonly 34: 100000000;
     readonly 35: 1000000000000000000;
     readonly 36: 1000000000000000000;
+    readonly 39: 1000000000;
 };
