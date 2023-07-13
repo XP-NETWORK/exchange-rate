@@ -18,7 +18,6 @@ export declare enum SupportedCurrency {
     XTZ = "18",
     VLX = "19",
     IOTX = "20",
-    AURORA = "21",
     CKB = "22",
     GT = "23",
     SCRT = "24",
@@ -34,7 +33,6 @@ export declare enum SupportedCurrency {
     APTOS = "34",
     CMP = "35",
     OKT = "36",
-    aETH = "37",
     BRISE = "38",
     CSPR = "39"
 }
@@ -58,7 +56,6 @@ export declare enum SupportedCurrencyName {
     XTZ = "XTZ",
     VLX = "VLX",
     IOTX = "IOTX",
-    AURORA = "ETH",
     VET = "VET",
     CKB = "CKB",
     GT = "GT",

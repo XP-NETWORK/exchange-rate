@@ -17,7 +17,6 @@ export declare enum CMCId {
     XTZ = 2011,
     VLX = 4747,
     IOTX = 2777,
-    AURORA = 1027,
     VET = 3077,
     CKB = 4948,
     GT = 4269,
@@ -32,7 +31,6 @@ export declare enum CMCId {
     ABEY = 16690,
     CMP = 20056,
     OKT = 8267,
-    aETH = 1027,
     BRISE = 11079,
     CSPR = 5899
 }
