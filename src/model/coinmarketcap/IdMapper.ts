@@ -27,7 +27,6 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.XTZ, SupportedCurrency.XTZ],
     [CMCId.VLX, SupportedCurrency.VLX],
     [CMCId.IOTX, SupportedCurrency.IOTX],
-    [CMCId.AURORA, SupportedCurrency.AURORA],
     [CMCId.VET, SupportedCurrency.VET],
     [CMCId.CKB, SupportedCurrency.CKB],
     [CMCId.GT, SupportedCurrency.GT],
@@ -42,7 +41,6 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.ABEY, SupportedCurrency.ABEY],
     [CMCId.CMP, SupportedCurrency.CMP],
     [CMCId.OKT, SupportedCurrency.OKT],
-    [CMCId.aETH, SupportedCurrency.aETH],
     [CMCId.BRISE, SupportedCurrency.BRISE],
     [CMCId.CSPR, SupportedCurrency.CSPR],
 ];
