@@ -27,7 +27,7 @@ export function batchExchangeRateService(
                 '/v1/cryptocurrency/quotes/latest',
                 {
                     params: {
-                        id: currencies.join(','),
+                        id: currencies.filter((c) => c).join(','),
                     },
                 }
             );

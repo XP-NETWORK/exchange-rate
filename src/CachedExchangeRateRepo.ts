@@ -40,6 +40,11 @@ export function cachedExchangeRateRepo(
             _cache = await baseBatch.getBatchedRate(Object.values(supported));
             _cache.set(SupportedCurrency.OPL, 0.01);
             _cache.set(SupportedCurrency.APTOS, 1);
+            //hardcoded workarond for aurora for now
+            _cache.set(
+                SupportedCurrency.AURORA,
+                _cache.get(SupportedCurrency.ETH)!
+            );
             _cache_ms = Date.now();
         };
         if (_cache === undefined) {
