@@ -45,6 +45,10 @@ export function cachedExchangeRateRepo(
                 SupportedCurrency.AURORA,
                 _cache.get(SupportedCurrency.ETH)!
             );
+            _cache.set(
+                SupportedCurrency.OPTM,
+                _cache.get(SupportedCurrency.ETH)!
+            );
             _cache_ms = Date.now();
         };
         if (_cache === undefined) {
