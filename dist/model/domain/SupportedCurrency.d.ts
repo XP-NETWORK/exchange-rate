@@ -35,7 +35,8 @@ export declare enum SupportedCurrency {
     CMP = "35",
     OKT = "36",
     BRISE = "38",
-    CSPR = "39"
+    CSPR = "39",
+    OPTM = "40"
 }
 export declare enum SupportedCurrencyName {
     XPNET = "XPNET",
@@ -74,5 +75,6 @@ export declare enum SupportedCurrencyName {
     CMP = "CMP",
     OKT = "OKT",
     BRISE = "BRISE",
-    CSPR = "CSPR"
+    CSPR = "CSPR",
+    OPTM = "ETH"
 }
