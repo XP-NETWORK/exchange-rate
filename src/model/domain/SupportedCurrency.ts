@@ -37,6 +37,7 @@ export enum SupportedCurrency {
     BRISE = '38',
     CSPR = '39',
     OPTM = '40',
+    ZETA = '41',
 }
 
 export enum SupportedCurrencyName {
@@ -78,4 +79,5 @@ export enum SupportedCurrencyName {
     BRISE = 'BRISE',
     CSPR = 'CSPR',
     OPTM = 'ETH',
+    ZETA = 'AZETA',
 }
