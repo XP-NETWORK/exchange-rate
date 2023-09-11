@@ -32,5 +32,6 @@ export declare enum CMCId {
     CMP = 20056,
     OKT = 8267,
     BRISE = 11079,
-    CSPR = 5899
+    CSPR = 5899,
+    NRG = 3218
 }
