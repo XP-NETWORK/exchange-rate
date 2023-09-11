@@ -33,4 +33,5 @@ export enum CMCId {
     OKT = 8267, // OKC
     BRISE = 11079,
     CSPR = 5899,
+    NRG = 3218,
 }

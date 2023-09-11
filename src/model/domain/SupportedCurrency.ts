@@ -38,6 +38,7 @@ export enum SupportedCurrency {
     CSPR = '39',
     OPTM = '40',
     ZETA = '41',
+    NRG = '42',
 }
 
 export enum SupportedCurrencyName {
@@ -80,4 +81,5 @@ export enum SupportedCurrencyName {
     CSPR = 'CSPR',
     OPTM = 'ETH',
     ZETA = 'AZETA',
+    NRG = 'NRG',
 }

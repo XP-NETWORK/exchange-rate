@@ -43,6 +43,7 @@ const ens: [CMCId, SupportedCurrency][] = [
     [CMCId.OKT, SupportedCurrency.OKT],
     [CMCId.BRISE, SupportedCurrency.BRISE],
     [CMCId.CSPR, SupportedCurrency.CSPR],
+    [CMCId.NRG, SupportedCurrency.NRG],
 ];
 
 const enMap = new Map(ens);

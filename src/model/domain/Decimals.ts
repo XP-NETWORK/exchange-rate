@@ -34,6 +34,7 @@ export const DecimalsByCurrency = {
     CMP: 1e18, // Caduceus
     OKT: 1e18, // OKC
     CSPR: 1e9,
+    NGR: 1e18,
 } as const;
 
 export const DecimalsByNonce = {
@@ -72,4 +73,5 @@ export const DecimalsByNonce = {
     0x23: 1e18, // Caduceus
     0x24: 1e18, // OKC
     39: 1e9,
+    42: 1e18,
 } as const;
