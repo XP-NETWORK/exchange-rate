@@ -39,6 +39,7 @@ export enum SupportedCurrency {
     OPTM = '40',
     ZETA = '41',
     NRG = '42',
+    FRA = '44',
 }
 
 export enum SupportedCurrencyName {
@@ -82,4 +83,5 @@ export enum SupportedCurrencyName {
     OPTM = 'ETH',
     ZETA = 'AZETA',
     NRG = 'NRG',
+    FRA = 'FRA',
 }

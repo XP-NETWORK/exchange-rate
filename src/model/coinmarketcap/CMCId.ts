@@ -34,4 +34,5 @@ export enum CMCId {
     BRISE = 11079,
     CSPR = 5899,
     NRG = 3218,
+    FRA = 4249,
 }
